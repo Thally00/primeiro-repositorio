@@ -24,8 +24,6 @@ HTML5 → Estrutura da página.
 
 CSS3 → Estilização (arquivo externo style.css).
 
-Favicon → ícone personalizado (img/teste.png).
-
 📂 Estrutura de Arquivos
 📁 projeto-receita
 ├── index.html
@@ -64,7 +62,6 @@ Tornar o design responsivo para dispositivos móveis.
 👩‍💻 Autora
 
 Thallya Bianka
-
 📄 Licença
 
 Este projeto está licenciado sob a Licença MIT. Consulte o arquivo LICENSE
