@@ -28,13 +28,18 @@ CSS3 – Estilo, cores, fontes e layout responsivo.
 
 Responsividade – Compatível com desktops, tablets e celulares.
 
+Autor:
+
+Thallya Bianka – Desenvolvedora do projeto.
+
+📧 Contato: thallyabianka@gmail.com
+
 Como Adicionar Novas Receitas
 
 Para adicionar novas receitas, siga os passos abaixo:
 
-Duplicar o cartão existente:
+```Duplicar o cartão existente:
 
-```
 <div class="recipe-card">
   <img src="img/novaReceita.jpg" alt="Descrição da nova receita" class="recipe-image">
   <div class="recipe-content">
@@ -42,17 +47,9 @@ Duplicar o cartão existente:
     <p class="recipe-description">Descrição breve da receita, indicando sabor e principais ingredientes.</p>
   </div>
 </div>
-\`\`\`
-
 
 Atualizar a imagem:
 Coloque a imagem da nova receita na pasta img/ e altere o src.
 
 Alterar título e descrição:
 Modifique os textos dentro de h2 e p conforme a receita.
-
-Autor:
-
-Thallya Bianka – Desenvolvedora do projeto.
-
-📧 Contato: thallyabianka@gmail.com
