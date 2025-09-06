@@ -14,7 +14,7 @@ Título da receita.
 
 Pequena descrição da receita.
 
-Uso de tags semânticas (<h2>, <p>, <img>) para melhor organização e acessibilidade.
+Uso de tags semânticas ("<h2>, <p>, <img>") para melhor organização e acessibilidade.
 
 Estrutura simples, adaptável para a adição de novos cartões de receitas.
 
