@@ -2,15 +2,13 @@
 Repositório que contém o Projeto de Receita Clássica Simples
 
 Cartão de Receita Simples 🍴
+
 Descrição do Projeto
 
 Este projeto consiste em um cartão de apresentação de receita criado com HTML e CSS, ideal para sites culinários, portfólios ou blogs.
 O exemplo incluído mostra uma Salada Grega Clássica, com imagem, título e descrição resumida.
 
-O cartão é simples, elegante e responsivo, podendo ser facilmente duplicado para exibir várias receitas.
-
-Salada Grega Clássica
-Uma salada leve, saudável e cheia de sabor, perfeita para os dias quentes de verão. Rápida e fácil de preparar.
+O cartão é limpo, responsivo e fácil de replicar, podendo ser usado para múltiplas receitas.
 
 Estrutura do Projeto
 / (raiz do projeto)
