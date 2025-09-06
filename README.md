@@ -1,110 +1,69 @@
 # primeiro-repositorio
 Repositório que contém o Projeto de Receita Clássica Simples
-# 🍽️ Card de Receitas Clássicas Gregas
+📋 Cartão de Receita Simples
 
-Este projeto é uma aplicação web simples que apresenta um card de receitas clássicas da culinária grega. O objetivo é fornecer uma interface bonita, responsiva e fácil de navegar, onde o usuário pode visualizar detalhes de receitas tradicionais como Moussaka, Tzatziki, Souvlaki, entre outras.
+Este projeto é uma página HTML + CSS que exibe um cartão de receita no estilo de um cartão de apresentação culinária. O objetivo é praticar conceitos básicos de HTML semântico, estruturação de páginas e estilização com CSS.
 
-## 📌 Funcionalidades
+🚀 Funcionalidades
 
-- Visualização de cards com:
-  - Nome da receita
-  - Imagem ilustrativa
-  - Ingredientes
-  - Modo de preparo
-- Interface responsiva (mobile e desktop)
-- Código modular e organizado
-- Estilização moderna com CSS ou frameworks (opcional)
+Exibição de um cartão de receita contendo:
 
-## 🛠️ Tecnologias Utilizadas
+Imagem ilustrativa da receita.
 
-- HTML5
-- CSS3
-- JavaScript (puro ou com framework, como React)
-- [Opcional] Framework de estilo: Tailwind CSS ou Bootstrap
+Título da receita.
 
-## 📁 Estrutura do Projeto
+Pequena descrição da receita.
 
-greek-recipes-card/
-│
+Uso de tags semânticas (<h2>, <p>, <img>) para melhor organização e acessibilidade.
+
+Estrutura simples, adaptável para a adição de novos cartões de receitas.
+
+🛠️ Tecnologias Utilizadas
+
+HTML5 → Estrutura da página.
+
+CSS3 → Estilização (arquivo externo style.css).
+
+Favicon → ícone personalizado (img/teste.png).
+
+📂 Estrutura de Arquivos
+📁 projeto-receita
 ├── index.html
-├── style.css
-├── script.js
-├── assets/
-│ ├── images/
-│ │ ├── moussaka.jpg
-│ │ ├── tzatziki.jpg
-│ │ └── souvlaki.jpg
-│ └── fonts/ (se necessário)
-├── data/
-│ └── recipes.json
-├── README.md
-└── LICENSE
+├── css
+│   └── style.css
+├── img
+│   ├── teste.png
+│   └── saladagrega.jpg
 
+📸 Pré-visualização
 
-## ▶️ Como Executar o Projeto Localmente
+Um exemplo do cartão de receita:
 
-### 1. Pré-requisitos
+Imagem: salada grega clássica (img/saladagrega.jpg).
 
-- Navegador web moderno (Chrome, Firefox, etc.)
-- Editor de código (Visual Studio Code recomendado)
+Título: Salada Grega Clássica.
 
-### 2. Clonar o repositório
+Descrição: "Uma salada leve, saudável e cheia de sabor, perfeita para os dias quentes de verão. Rápida e fácil de preparar."
 
-```bash
-git clone https://github.com/seu-usuario/greek-recipes-card.git
-cd greek-recipes-card
+📖 Como Usar
 
-3. Abrir o projeto
+Clone ou baixe o repositório.
 
-Abra o arquivo index.html no seu navegador, ou use uma extensão de servidor local como o Live Server no VS Code.
-4. (Opcional) Instalar dependências
+Abra o arquivo index.html no navegador.
 
-Se você estiver usando um framework como React ou Tailwind, será necessário instalar dependências:
+Verifique se as imagens estão dentro da pasta img/ e o CSS dentro da pasta css/.
 
-npm install
-npm start
+✨ Possíveis Melhorias
 
-📦 Dados de Exemplo (recipes.json)
+Adicionar mais cartões de receitas em uma grade.
 
-[
-  {
-    "id": 1,
-    "nome": "Moussaka",
-    "imagem": "assets/images/moussaka.jpg",
-    "ingredientes": [
-      "Berinjela",
-      "Carne moída de cordeiro",
-      "Molho bechamel",
-      "Tomate",
-      "Azeite de oliva"
-    ],
-    "modo_preparo": "Corte as berinjelas em fatias e grelhe. Refogue a carne com temperos. Monte camadas alternadas e cubra com molho bechamel. Leve ao forno até gratinar."
-  }
-]
+Incluir lista de ingredientes e modo de preparo.
 
-✨ Possíveis Melhorias Futuras
+Tornar o design responsivo para dispositivos móveis.
 
-    Integração com API externa de receitas
+👩‍💻 Autora
 
-    Animações na interface
-
-    Filtro ou busca por nome da receita
-
-    Suporte a múltiplos idiomas (i18n)
-
-🧑‍💻 Contribuindo
-
-Contribuições são bem-vindas! Para contribuir:
-
-    Faça um fork do projeto
-
-    Crie uma nova branch (git checkout -b feature/sua-feature)
-
-    Commit suas alterações (git commit -m 'Adiciona nova feature')
-
-    Push para a branch (git push origin feature/sua-feature)
-
-    Abra um Pull Request
+Thallya Bianka
 
 📄 Licença
 
