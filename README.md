@@ -34,13 +34,13 @@ Para adicionar novas receitas, siga os passos abaixo:
 
 Duplicar o cartão existente:
 
-<!-- <div class="recipe-card">
+``` <div class="recipe-card">
   <img src="img/novaReceita.jpg" alt="Descrição da nova receita" class="recipe-image">
   <div class="recipe-content">
     <h2 class="recipe-title">Nome da Receita</h2>
     <p class="recipe-description">Descrição breve da receita, indicando sabor e principais ingredientes.</p>
   </div>
-</div>-->
+</div>```
 
 
 Atualizar a imagem:
