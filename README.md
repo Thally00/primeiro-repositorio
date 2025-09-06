@@ -1,67 +1,63 @@
 # primeiro-repositorio
 Repositório que contém o Projeto de Receita Clássica Simples
-📋 Cartão de Receita Simples
 
-Este projeto é uma página HTML + CSS que exibe um cartão de receita no estilo de um cartão de apresentação culinária. O objetivo é praticar conceitos básicos de HTML semântico, estruturação de páginas e estilização com CSS.
+Cartão de Receita Simples 🍴
+Descrição do Projeto
 
-🚀 Funcionalidades
+Este projeto consiste em um cartão de apresentação de receita criado com HTML e CSS, ideal para sites culinários, portfólios ou blogs.
+O exemplo incluído mostra uma Salada Grega Clássica, com imagem, título e descrição resumida.
 
-Exibição de um cartão de receita contendo:
+O cartão é simples, elegante e responsivo, podendo ser facilmente duplicado para exibir várias receitas.
 
-Imagem ilustrativa da receita.
+Prévia do Cartão
 
-Título da receita.
+Salada Grega Clássica
+Uma salada leve, saudável e cheia de sabor, perfeita para os dias quentes de verão. Rápida e fácil de preparar.
 
-Pequena descrição da receita.
+Estrutura do Projeto
+/ (raiz do projeto)
+│
+├─ index.html          # Página principal com o cartão de receita
+├─ css/
+│   └─ style.css       # Arquivo de estilos do cartão
+└─ img/
+    ├─ saladagrega.jpg # Imagem da receita
+    └─ teste.png       # Ícone do site
 
-Uso de tags semânticas (h2, p, img) para melhor organização e acessibilidade.
+Tecnologias Utilizadas
 
-Estrutura simples, adaptável para a adição de novos cartões de receitas.
+HTML5 – Estrutura do cartão.
 
-🛠️ Tecnologias Utilizadas
+CSS3 – Estilo, cores, fontes e layout responsivo.
 
-HTML5 → Estrutura da página.
+Responsividade – Compatível com desktops, tablets e celulares.
 
-CSS3 → Estilização (arquivo externo style.css).
+Como Adicionar Novas Receitas
 
-📂 Estrutura de Arquivos
-📁 projeto-receita
-├── index.html
-├── css
-│   └── style.css
-├── img
-│   ├── teste.png
-│   └── saladagrega.jpg
+Para adicionar novas receitas, siga os passos abaixo:
 
-📸 Pré-visualização
+Duplicar o cartão existente:
 
-Um exemplo do cartão de receita:
+<div class="recipe-card">
+  <img src="img/novaReceita.jpg" alt="Descrição da nova receita" class="recipe-image">
+  <div class="recipe-content">
+    <h2 class="recipe-title">Nome da Receita</h2>
+    <p class="recipe-description">Descrição breve da receita, indicando sabor e principais ingredientes.</p>
+  </div>
+</div>
 
-Imagem: salada grega clássica (img/saladagrega.jpg).
 
-Título: Salada Grega Clássica.
+Atualizar a imagem:
+Coloque a imagem da nova receita na pasta img/ e altere o src.
 
-Descrição: "Uma salada leve, saudável e cheia de sabor, perfeita para os dias quentes de verão. Rápida e fácil de preparar."
+Alterar título e descrição:
+Modifique os textos dentro de h2 e p conforme a receita.
 
-📖 Como Usar
+Autor:
 
-Clone ou baixe o repositório.
+Thallya Bianka – Desenvolvedora do projeto.
 
-Abra o arquivo index.html no navegador.
-
-Verifique se as imagens estão dentro da pasta img/ e o CSS dentro da pasta css/.
-
-✨ Possíveis Melhorias
-
-Adicionar mais cartões de receitas em uma grade.
-
-Incluir lista de ingredientes e modo de preparo.
-
-Tornar o design responsivo para dispositivos móveis.
-
-👩‍💻 Autora
-
-Thallya Bianka
+📧 Contato: thallyabianka@gmail.com
 📄 Licença
 
 Este projeto está licenciado sob a Licença MIT. Consulte o arquivo LICENSE
