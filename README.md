@@ -9,8 +9,6 @@ O exemplo incluído mostra uma Salada Grega Clássica, com imagem, título e des
 
 O cartão é simples, elegante e responsivo, podendo ser facilmente duplicado para exibir várias receitas.
 
-Pévia do Cartão
-
 Salada Grega Clássica
 Uma salada leve, saudável e cheia de sabor, perfeita para os dias quentes de verão. Rápida e fácil de preparar.
 
@@ -58,9 +56,3 @@ Autor:
 Thallya Bianka – Desenvolvedora do projeto.
 
 📧 Contato: thallyabianka@gmail.com
-📄 Licença
-
-Este projeto está licenciado sob a Licença MIT. Consulte o arquivo LICENSE
-
-para mais detalhes.
-📷 Prévia (Screenshot)
